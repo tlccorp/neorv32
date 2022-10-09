@@ -121,7 +121,7 @@ jobs:
           USER_FLAGS+=-DRUN_CHECK \
           USER_FLAGS+=-DUART0_SIM_MODE \
           USER_FLAGS+=-DSUPPRESS_OPTIONAL_UART_PRINT \
-          MARCH=rv32imc_Zicsr_Zifencei \
+          MARCH=rv32imc_zicsr_zifencei \
           info \
           all
 

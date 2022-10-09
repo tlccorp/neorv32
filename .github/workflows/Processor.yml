@@ -121,9 +121,8 @@ jobs:
           USER_FLAGS+=-DRUN_CHECK \
           USER_FLAGS+=-DUART0_SIM_MODE \
           USER_FLAGS+=-DSUPPRESS_OPTIONAL_UART_PRINT \
-          USER_FLAGS+=-misa-spec=2.2 \
+          USER_FLAGS+=-Wl,-melf32lriscv \
           MARCH=rv32imc_zicsr_zifencei \
-          MABI=ilp32 \
           info \
           all
 
